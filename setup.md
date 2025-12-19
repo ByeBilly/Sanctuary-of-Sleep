@@ -1,7 +1,7 @@
 
 # Sanctuary of Sleep - VM Setup Guide
 
-This guide details how to set up, build, and run the `sanctuary-of-sleep` application on a Linux Virtual Machine (e.g., Ubuntu/Debian).
+This guide details how to set up, build, and run the `sanctuaryofsleep` application on a Linux Virtual Machine (e.g., Ubuntu/Debian).
 
 ## 1. Prerequisites
 Ensure your VM has **Node.js** installed (Version 18+ recommended).
@@ -29,8 +29,8 @@ npm -v
 You can clone your git repository or upload the files directly.
 ```bash
 # Example: Clone if you have a remote
-git clone <YOUR_GIT_REPO_URL> sanctuary-of-sleep
-cd sanctuary-of-sleep
+git clone <YOUR_GIT_REPO_URL> sanctuaryofsleep
+cd sanctuaryofsleep
 ```
 
 ## 3. Install Dependencies

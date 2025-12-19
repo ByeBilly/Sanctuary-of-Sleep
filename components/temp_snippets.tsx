@@ -1,4 +1,6 @@
 // Typewriter Component
+import React, { useState, useEffect, useRef } from 'react';
+
 const TypewriterText: React.FC<{ text: string; onComplete?: () => void }> = ({ text, onComplete }) => {
     const [displayedText, setDisplayedText] = useState('');
     const indexRef = useRef(0);
