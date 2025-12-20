@@ -62,9 +62,8 @@ const Home: React.FC = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-sanctuary-mist mb-6 leading-tight animate-fade-in-up delay-100 drop-shadow-2xl">
-            Ancient History.<br />
-            Botanical Science.<br />
-            <span className="text-sanctuary-gold italic">Deep Rest.</span>
+            Awaiting Upon Betty and<br />
+            Lou the Guardians
           </h1>
 
           <p className="text-lg md:text-2xl text-sanctuary-mist/90 mb-10 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in-up delay-200 drop-shadow-lg">

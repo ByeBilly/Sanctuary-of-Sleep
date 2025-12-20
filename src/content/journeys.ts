@@ -17,7 +17,7 @@ export const JOURNEYS: Journey[] = [
     duration: '2:04:50',
     youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ikn',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/maxresdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/hqdefault.jpg',
     views: 'New Release'
   },
   {
@@ -27,7 +27,7 @@ export const JOURNEYS: Journey[] = [
     duration: '2:04:50',
     youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ikn',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/maxresdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/hqdefault.jpg',
     views: 'New Release'
   },
   {
@@ -37,7 +37,7 @@ export const JOURNEYS: Journey[] = [
     duration: '2:04:50',
     youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ikn',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/maxresdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/hqdefault.jpg',
     views: 'New Release'
   },
   {
@@ -47,7 +47,7 @@ export const JOURNEYS: Journey[] = [
     duration: '2:04:50',
     youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ikn',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/maxresdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/hqdefault.jpg',
     views: 'New Release'
   }
 ];
