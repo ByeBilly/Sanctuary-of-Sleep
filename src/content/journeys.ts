@@ -15,9 +15,9 @@ export const JOURNEYS: Journey[] = [
     title: 'The Sanctuary of Sleep — Pilot Journey',
     subtitle: 'The Botanical Archive',
     duration: '2:04:50',
-    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ikn',
+    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ik',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/hqdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ik/hqdefault.jpg',
     views: 'New Release'
   },
   {
@@ -25,9 +25,9 @@ export const JOURNEYS: Journey[] = [
     title: 'The Sanctuary of Sleep — Pilot Journey',
     subtitle: 'The Botanical Archive',
     duration: '2:04:50',
-    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ikn',
+    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ik',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/hqdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ik/hqdefault.jpg',
     views: 'New Release'
   },
   {
@@ -35,9 +35,9 @@ export const JOURNEYS: Journey[] = [
     title: 'The Sanctuary of Sleep — Pilot Journey',
     subtitle: 'The Botanical Archive',
     duration: '2:04:50',
-    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ikn',
+    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ik',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/hqdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ik/hqdefault.jpg',
     views: 'New Release'
   },
   {
@@ -45,9 +45,9 @@ export const JOURNEYS: Journey[] = [
     title: 'The Sanctuary of Sleep — Pilot Journey',
     subtitle: 'The Botanical Archive',
     duration: '2:04:50',
-    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ikn',
+    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ik',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ikn/hqdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ik/hqdefault.jpg',
     views: 'New Release'
   }
 ];

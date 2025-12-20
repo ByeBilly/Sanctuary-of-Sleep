@@ -33,6 +33,12 @@ const YouTubeSection: React.FC = () => {
               <img
                 src={latest.imageUrl}
                 alt="Latest Video Thumbnail"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  if (!target.src.includes('mqdefault')) {
+                    target.src = target.src.replace('maxresdefault', 'mqdefault').replace('hqdefault', 'mqdefault');
+                  }
+                }}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100"
               />
 
@@ -117,6 +123,12 @@ const YouTubeSection: React.FC = () => {
                   <img
                     src={video.imageUrl}
                     alt={video.title}
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      if (!target.src.includes('mqdefault')) {
+                        target.src = target.src.replace('maxresdefault', 'mqdefault').replace('hqdefault', 'mqdefault');
+                      }
+                    }}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
