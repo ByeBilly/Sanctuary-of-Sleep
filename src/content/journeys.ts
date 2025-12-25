@@ -12,12 +12,12 @@ export interface Journey {
 export const JOURNEYS: Journey[] = [
   {
     id: 'pilot-journey',
-    title: 'The Sanctuary of Sleep — Pilot Journey',
+    title: 'Sleep While You Learn AI Prompting 🧠🌙 | Subliminal Focus, Clarity & Creativity Overnight',
     subtitle: 'The Botanical Archive',
-    duration: '2:04:50',
-    youtubeUrl: 'https://www.youtube.com/watch?v=oLSV7Ysm4Ik',
+    duration: '1:25:12',
+    youtubeUrl: 'https://www.youtube.com/watch?v=h_r80EWgjqs',
     description: 'Welcome to The Sanctuary of Sleep. Step into a space where Ancient History, Botanical Science, and Biblical narratives converge.',
-    imageUrl: 'https://img.youtube.com/vi/oLSV7Ysm4Ik/hqdefault.jpg',
+    imageUrl: 'https://img.youtube.com/vi/h_r80EWgjqs/hqdefault.jpg',
     views: 'New Release'
   },
   {

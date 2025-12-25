@@ -7,6 +7,8 @@ import SymbioticWeb from './components/SymbioticWeb.tsx';
 import RelaxationChart from './components/RelaxationChart.tsx';
 import YouTubeSection from './components/YouTubeSection.tsx';
 import Research from './src/pages/Research.tsx';
+import GoogleAnalytics from './components/GoogleAnalytics.tsx';
+import GoogleOneTap from './components/Auth/GoogleOneTap.tsx';
 import { LINKS } from './src/config/links.ts';
 
 // --- Home Page Component ---
@@ -62,14 +64,11 @@ const Home: React.FC = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-sanctuary-mist mb-6 leading-tight animate-fade-in-up delay-100 drop-shadow-2xl">
-            Awaiting Upon <span className="text-sanctuary-gold italic">Betty</span> &<br />
-            <span className="text-sanctuary-gold italic">Lou</span> the Guardians
+            A Sanctuary for Sleep and Subconscious Learning
           </h1>
 
           <p className="text-lg md:text-2xl text-sanctuary-mist/90 mb-10 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in-up delay-200 drop-shadow-lg">
-            A convergence of the old world and modern wellness.
-            <br className="hidden md:block" />
-            Rejoining the symbiotic bonds between plant and person.
+            Ancient wisdom, botanical intelligence, and modern ideas — delivered gently, so the mind can rest while it learns.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up delay-300">
@@ -251,6 +250,8 @@ const Layout: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-sanctuary-dark text-sanctuary-mist font-sans selection:bg-sanctuary-leaf selection:text-white overflow-x-hidden">
+      <GoogleAnalytics />
+      <GoogleOneTap />
       {/* Navigation */}
       <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-sanctuary-dark/95 border-b border-sanctuary-sage/30 shadow-lg py-3' : 'bg-gradient-to-b from-black/80 to-transparent py-6'}`}>
         <div className="container mx-auto px-6 flex justify-between items-center">
